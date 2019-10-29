@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29411.108
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "Inheritence Test", "Inheritence Test\Inheritence Test.msbuildproj", "{AE159AC8-C799-49F3-A156-1B635E2B0B50}"
+EndProject
+Project("{13B669BE-BB05-4DDF-9536-439F39A36129}") = "PeachPied.WordPress", "wordpress\PeachPied.WordPress.msbuildproj", "{0E51D101-0992-4AA6-A134-26EA3F2E3934}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeachPied.WordPress.AspNetCore", "PeachPied.WordPress.AspNetCore\PeachPied.WordPress.AspNetCore.csproj", "{AB2AF8CA-4A19-42A6-92A7-BA0502FCF376}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PeachPied.WordPress.Sdk", "PeachPied.WordPress.Sdk\PeachPied.WordPress.Sdk.csproj", "{2917D1B5-6AB6-4A64-9468-AABC9704DBDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE159AC8-C799-49F3-A156-1B635E2B0B50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE159AC8-C799-49F3-A156-1B635E2B0B50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE159AC8-C799-49F3-A156-1B635E2B0B50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE159AC8-C799-49F3-A156-1B635E2B0B50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E51D101-0992-4AA6-A134-26EA3F2E3934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E51D101-0992-4AA6-A134-26EA3F2E3934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E51D101-0992-4AA6-A134-26EA3F2E3934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E51D101-0992-4AA6-A134-26EA3F2E3934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB2AF8CA-4A19-42A6-92A7-BA0502FCF376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB2AF8CA-4A19-42A6-92A7-BA0502FCF376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB2AF8CA-4A19-42A6-92A7-BA0502FCF376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB2AF8CA-4A19-42A6-92A7-BA0502FCF376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2917D1B5-6AB6-4A64-9468-AABC9704DBDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2917D1B5-6AB6-4A64-9468-AABC9704DBDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2917D1B5-6AB6-4A64-9468-AABC9704DBDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2917D1B5-6AB6-4A64-9468-AABC9704DBDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3AFA1CDD-E1BC-441C-A26C-66B030CF0EA9}
+	EndGlobalSection
+EndGlobal

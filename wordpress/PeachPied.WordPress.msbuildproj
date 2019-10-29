@@ -1,0 +1,29 @@
+﻿<Project Sdk="Peachpie.NET.Sdk/0.9.500">
+  <Import Project="..\build\Settings.props" />
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>0e51d101-0992-4aa6-a134-26ea3f2e3934</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <VersionPrefix>$(WordPressVersion)</VersionPrefix>
+    <!--PackageVersion>$(WordPressVersion)</PackageVersion-->
+    <NoWarn>PHP0125,PHP5011,PHP6002</NoWarn>
+    <Copyright>WordPress</Copyright>
+    <Description>WordPress project transformed to managed .NET Standard library.</Description>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="**/*.php" Exclude="wp-config-sample.php;wp-content/uploads/**;wp-content/plugins/hello.php;wp-content/plugins/akismet/**" />
+    <Content Include="**" Exclude="obj/**;bin/**;wp-content/uploads/**;**/*.php;wp-content/plugins/akismet/**;*.msbuildproj" CopyToOutputDirectory="PreserveNewest">
+      <PackagePath>contentFiles/any/netcoreapp2.0/wordpress/</PackagePath>
+      <PackageCopyToOutput>true</PackageCopyToOutput>
+      <Link>wordpress\%(RecursiveDir)%(Filename)%(Extension)</Link>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <!--PackageReference Include="Peachpie.RequestHandler" Version="$(PeachpieVersion)" /-->
+    <ProjectReference Include="..\PeachPied.WordPress.Sdk\PeachPied.WordPress.Sdk.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0-*" PrivateAssets="All"/>
+  </ItemGroup>
+</Project>
